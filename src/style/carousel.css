@@ -1,0 +1,30 @@
+.main-img{
+    height: 90vh;
+}
+
+.img-tag {
+    height:90vh;
+    flex-direction: column;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.img-tag>h4 {
+    font-weight: bold;
+}
+.img-tag>h1 {
+    font-size: 70px;
+    font-weight:bolder;
+}
+
+.img-font{
+    position: absolute;
+}
+
+.img-tag-font{
+    position: relative;
+    background-image: url("https://www.woowahan.com/fonts");
+    height: 90vh;
+    width: 100vw;
+}

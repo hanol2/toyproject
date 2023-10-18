@@ -1,0 +1,38 @@
+.header {
+    font-family: Noto Sans,Noto Sans KR,sans-serif;
+    font-size: 16px;
+    font-weight:bold;
+    height : 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom : 0.1px solid rgb(203, 203, 203);
+}
+
+.logo {
+    height: 25px;
+    padding-left: 200px;
+}
+
+.nav-list {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color : black;
+}
+
+.rt-nav{
+    padding-right: 200px;
+}
+
+.music{
+    padding-left: 15px;
+    text-decoration: none;
+    color : black;
+}
+
+.header span {
+    color : gray;
+    font-size : x-small;
+    padding-bottom: 70px;
+}
