@@ -1,17 +1,14 @@
 .header {
-    font-family: Noto Sans,Noto Sans KR,sans-serif;
     font-size: 16px;
-    font-weight:bold;
     height : 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom : 0.1px solid rgb(203, 203, 203);
+    border-bottom : 0.1px solid #f3f4f5;
 }
-
 .logo {
-    height: 25px;
-    padding-left: 200px;
+    height: 3.2vh;
+    padding-left: 12.5vw;
 }
 
 .nav-list {
@@ -19,6 +16,9 @@
     padding-right: 15px;
     text-decoration: none;
     color : black;
+}
+.nav-list:hover {
+    font-size:bold;
 }
 
 .rt-nav{

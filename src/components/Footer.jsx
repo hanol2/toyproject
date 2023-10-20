@@ -64,7 +64,7 @@ const Footer = () => {
                         <ul>
                             <li>오시는길</li>
                             <li>공지사항</li>
-                            <li>개인정보처리방침</li>
+                            <li><strong>개인정보처리방침</strong></li>
                             <li>제휴문의</li>
                             <li>소비자중심경영</li>
                             <li>제보센터</li>

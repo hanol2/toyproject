@@ -1,13 +1,24 @@
 @import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
+.notosanskr * { 
+ font-family: 'Noto Sans KR', 'sans-serif';
+}
 .hanna * {
- font-family: 'Hanna', fantasy;
+ font-family: 'Hanna', 'fantasy';
 }
 
 *{
   margin : 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: 'BMHANNAPro';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  }
 
 
 .App {
