@@ -1,0 +1,76 @@
+/* 배너 */
+.main-img{
+    height: 90vh;
+    position: relative;
+}
+
+.img-tag {
+    height:90vh;
+    flex-direction: column;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.img-tag>h4 {
+    font-family: 'Noto Sans KR';
+    font-size: 1.2em;
+    color: white;
+    padding-bottom: 5vh;
+}
+
+.img-tag>h1 {
+    font-family:'Hanna';
+    font-size: 60px;
+    color: white;
+}
+.banner-1{
+    background-image: url('https://woowahan-cdn.woowahan.com/new_resources/image/banner/2871a4e022b34fe287763284ebc747b2.jpg');
+    height: 90vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.banner-2{
+    background-image: url('https://woowahan-cdn.woowahan.com/new_resources/image/banner/19bef36e5f804858b6b92f687665ad77.jpg');
+    height:90vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.banner-3 {
+    background-image: url('https://woowahan-cdn.woowahan.com/new_resources/image/banner/1329341e1b794a4fa0414db7b0948cef.jpg');
+    height:90vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.banner-4 {
+    background-image: url('https://woowahan-cdn.woowahan.com/new_resources/image/banner/759dbedf1e6c46c9b0bab064828cf27c.jpg');
+    height:90vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.banner-5 {
+    background-image: url('https://woowahan-cdn.woowahan.com/new_resources/image/banner/d87d36d6d3784562b0565c387f2e758e.jpg');
+    height:90vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.banner-6 {
+    padding-top:15vh;
+    width:100vw;
+    overflow: hidden;
+}
+
+.banner-7 {
+    padding-top:15vh;
+    width:100vw;
+    overflow: hidden;
+}
+.banner-8 {
+    padding-top:15vh;
+    width:100vw;
+    overflow: hidden;
+}
+

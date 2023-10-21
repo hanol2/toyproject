@@ -1,0 +1,22 @@
+.title-box{
+    flex-direction: column;
+}
+.partone-title{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.partone-sub-title{
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+}
+
+.part-two-video{
+    display: flex;
+    justify-content: center;
+}
+
+.part-two-video>video {
+    width: 50vw;
+}
