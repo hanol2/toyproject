@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './style/header.css'
 import './style/footer.css'
 import './style/banner.css'
 import './style/partone.css'
 import './style/parttwo.css'
 import './style/partFour.css'
+import './style/slider.css'
 import './App.css';
 import Headers from './components/Header';
 import Footer from './components/Footer';

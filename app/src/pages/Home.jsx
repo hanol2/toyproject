@@ -3,7 +3,7 @@ import Banner from '../components/Banner';
 import PartOne from '../components/PartOne';
 import PartTwo from '../components/PartTwo';
 import PartFour from '../components/PartFour';
-import HomeSwiper from '../components/HomeSwiper';
+import HomeSlider from '../components/HomeSlider';
 
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <PartOne></PartOne>
-            <HomeSwiper></HomeSwiper>
+            <HomeSlider></HomeSlider>
             <PartTwo></PartTwo>
             <PartFour></PartFour>
         </div>

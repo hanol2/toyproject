@@ -13,16 +13,27 @@
 }
 
 .img-tag>h4 {
+    position: absolute;
     font-family: 'Noto Sans KR';
     font-size: 1.2em;
     color: white;
     padding-bottom: 5vh;
+    left:43%;
+    top:25%;
 }
-
 .img-tag>h1 {
     font-family:'Hanna';
     font-size: 60px;
     color: white;
+}
+.img-tag>p {
+    position: absolute;
+    font-family: 'Noto Sans KR';
+    font-size: 1.2em;
+    color: white;
+    padding-bottom: 5vh;
+    left:47%;
+    bottom:20%;
 }
 .banner-1{
     background-image: url('https://woowahan-cdn.woowahan.com/new_resources/image/banner/2871a4e022b34fe287763284ebc747b2.jpg');
@@ -58,9 +69,35 @@
 }
 
 .banner-6 {
-    padding-top:15vh;
     width:100vw;
     overflow: hidden;
+}
+
+@keyframes typographics {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+  }
+
+.banner-text {
+    font-family: 'Noto Sans KR';
+    font-size: 1.2em;
+    color: white;
+    padding-bottom: 5vh;
+    left:38%;
+    top:35%;
+    position:absolute;
+    text-align: center;
+    animation: typographics 7s infinite;
+}
+
+.alter-text{
+    font-family: 'Noto Sans KR';
+    font-size: 1.2em;
+    color: white;
+    padding-bottom: 5vh;
+    left:47%;
+    bottom:40%;
 }
 
 .banner-7 {

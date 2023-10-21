@@ -1,14 +1,14 @@
 .header {
     font-size: 16px;
-    height : 10vh;
+    height : 13vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom : 0.1px solid #f3f4f5;
 }
 .logo {
-    height: 3.2vh;
-    padding-left: 12.5vw;
+    height: 4.5vh;
+    padding-left: 3.5vw;
 }
 
 .nav-list {
@@ -22,7 +22,7 @@
 }
 
 .rt-nav{
-    padding-right: 200px;
+    padding-right: 3.5vw;
 }
 
 .music{
@@ -35,4 +35,23 @@
     color : gray;
     font-size : x-small;
     padding-bottom: 70px;
+}
+
+/* top 버튼 */
+.scroll-box{
+    position: fixed;
+    right: 5%;
+    bottom :5%;
+    z-index: 1;
+}
+
+.top-btn{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px 10px;
+    background-color: #000;
+    color:#fff;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
 }

@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>
-            <nav className='footer'>
+        <div className='footer'>
+            <div >
                 <nav className='footer-nav'>
                     <div className='footer-nav-item'>
                         <ul>
@@ -72,10 +72,10 @@ const Footer = () => {
                     </div>
                 </nav>
                 <div className='footer-nav-bottom'>
-                    <strong>(주)우아한형제들</strong>
+                    <strong className='footer-nav-bottom-text'>(주)우아한형제들</strong>
                     <p>사업자 등록번호 : 120-87-65763 | 대표:이국환 | 주소 : 서울시 송파구 위례성대로 2 (방이동,장은빌딩)</p>
                 </div>
-            </nav>
+            </div>
         </div>
     )
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import HomeSwiper from './HomeSwiper';
 
 const PartOne = () => {
     return (

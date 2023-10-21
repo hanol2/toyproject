@@ -2,13 +2,9 @@
     font-family: 'Noto Sans KR';
     font-size: 16px;
     color: #37373a;
-    letter-spacing: -.02em;
-    padding-top: 60px;
-    padding-right: 24px;
-    padding-bottom: 85px;
-    padding-left: 24px;
+    padding: 8vh 10vw;
     background-color: #f3f4f5;
-    height: 494px;
+    height: 58vh;
 }
 
 .footer-nav{
@@ -19,16 +15,10 @@
 .footer-nav-bottom{
     display: flex;
     justify-content: center;
-    display: flex;
-    justify-content: center;
 }
 
 .footer-nav-item{
-    width: 187px;
-    height: 176px;
-    margin-top: 8px;
-    padding-right: 8px;
-    line-height: 1.4;
+    width: 60vw;
     line-height:1.8em;
 }
 
@@ -36,4 +26,17 @@
     list-style: none;
     color : gray;
     font-size: 14px;
+}
+
+.footer-nav-bottom{
+    display: flex ;
+    justify-content: flex-start;
+    padding: 4vh 2.5vw;
+    flex-direction: column;
+    line-height:1.8em;
+    font-size: 14px;
+}
+.footer-nav-bottom-text{
+    font-size: 16px;
+
 }
