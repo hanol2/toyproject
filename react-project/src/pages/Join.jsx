@@ -17,6 +17,8 @@ const Join = () => {
       id: idRef.current.value,
       pw1: pw1Ref.current.value,
       pw2: pw2Ref.current.value,
+    }).then ((res)=>{
+      console.log(res.data)
     })
   }
 
