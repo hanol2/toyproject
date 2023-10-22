@@ -1,0 +1,58 @@
+.login-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    font-family: 'Noto Sans KR';
+}
+
+.login-form>h1 {
+    text-align: center;
+    font-size: 43px;
+    font-weight: 800; 
+    margin-bottom: 3vh;
+}
+.login-form>p {
+    margin-bottom: 10vh;
+    font-size: 14px;
+    color: gray;
+}
+.login-form>p>.login-form-link{
+    color: black;
+    padding-left: 1vw;
+}
+.login-form>input {
+    margin-bottom: 5vh;
+    height: 9vh;
+    width: 26vw;
+    font-size: 16px;
+    padding: 13px 15px;
+    border: 1px solid #EBEBEB;
+}
+
+.login-form>input:focus{
+    outline: 1px solid  #2ac1bc;
+    
+}
+
+
+.login-btn{
+    margin-bottom: 5vh;
+    border-style: none;
+    font-weight: bold;
+    font-size: 16px;
+    height: 10vh;
+    width: 26vw;
+    font-family: 'Noto Sans KR';
+    color: white;
+}
+
+.join-text {
+    margin-bottom: 1vh;
+}
+
+.join-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    font-family: 'Noto Sans KR';
+}

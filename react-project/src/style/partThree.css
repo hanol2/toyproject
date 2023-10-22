@@ -1,0 +1,35 @@
+
+.partThree{
+    top:5%;
+    width:100vw;
+    height:800px;
+    position:relative;
+  }
+  .partThree-content{
+    width:100vw;
+    height:800px;
+    background-image: url('https://woowahan-cdn.woowahan.com/static/image/main/pc/season_1_bg.jpg?af10f3b0');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .partThree-text{
+    font-family: 'Noto Sans KR';
+    font-size: 35px;
+    font-weight: bold;
+    color:white;
+    position:absolute;
+    margin-top:35vh ;
+  }
+  .partThree-img{
+    margin-top:54vh ;
+  }
+  .partThree-img-tag{
+    font-family: 'Noto Sans KR';
+    margin-top:3vh;
+    color:white;
+    font-size: 18px;
+  }

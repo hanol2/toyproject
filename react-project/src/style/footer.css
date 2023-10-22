@@ -1,0 +1,42 @@
+.footer {
+    font-family: 'Noto Sans KR';
+    font-size: 16px;
+    color: #37373a;
+    padding: 8vh 10vw;
+    background-color: #f3f4f5;
+    height: 58vh;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav-item{
+    width: 60vw;
+    line-height:1.8em;
+}
+
+.footer-nav-item li{
+    list-style: none;
+    color : gray;
+    font-size: 14px;
+}
+
+.footer-nav-bottom{
+    display: flex ;
+    justify-content: flex-start;
+    padding: 4vh 2.5vw;
+    flex-direction: column;
+    line-height:1.8em;
+    font-size: 14px;
+}
+.footer-nav-bottom-text{
+    font-size: 16px;
+
+}

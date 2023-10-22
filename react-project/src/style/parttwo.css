@@ -1,0 +1,31 @@
+.partTwo-title-top{
+    flex-direction: column;
+    padding: 20vh 0 9vh 0;
+    font-family: 'Hanna',
+}
+.partTwo-title-bottom{
+    flex-direction: column;
+    padding: 9vh 0 20vh 0;
+    font-family: 'Hanna',
+}
+.partone-title{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Hanna',
+}
+.partone-sub-title{
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+    font-family: 'Hanna',
+}
+
+.part-two-video{
+    display: flex;
+    justify-content: center;
+}
+
+.part-two-video>video {
+    width: 50vw;
+}
